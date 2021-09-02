@@ -1,0 +1,66 @@
+<!-- This piese of useless software was made by Andrei Liubinski on 02-09-21 
+
+It plays one of 12 drum sounds on a keydown or on button click while showing a image that scrolls upwards. 
+
+Images must be contained in img/set/ folder and named `pic(${number})` where number is >0 but <=59  
+
+FYI This piese of software does not breach Privacy Policy set by Capital.com for the employees as it is not published on a searchable host. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="dist/style.css">
+	<title>Капитал.com Support Officer Steam Vent Drum Kit</title>
+</head>
+<body>
+	<div class="narrow">
+		<div class="display-container">
+			<div class="picture-box">
+				<img class="pic picture-0" src="" alt="">
+			</div>
+			<div class="picture-box">
+				<img class="pic picture-1" src="" alt="">
+			</div>
+
+		</div>
+		<div class="button-container">
+			<button class="key" data-key="a">A</button>
+			<button class="key" data-key="s">S</button>
+			<button class="key" data-key="d">D</button>
+			<button class="key" data-key="f">F</button>
+			<button class="key" data-key="g">G</button>
+			<button class="key" data-key="h">H</button>
+			<button class="key" data-key="z">Z</button>
+			<button class="key" data-key="x">X</button>
+			<button class="key" data-key="c">C</button>
+			<button class="key" data-key="v">V</button>
+			<button class="key" data-key="b">B</button>
+			<button class="key" data-key="n">N</button>
+		</div>
+	</div>
+	<div class="audio-container" hidden>
+		<audio src="audio/boom.wav" data-key="a"></audio>
+		<audio src="audio/clap.wav" data-key="s"></audio>
+		<audio src="audio/hihat.wav" data-key="d"></audio>
+		<audio src="audio/kick.wav" data-key="f"></audio>
+		<audio src="audio/openhat.wav" data-key="g"></audio>
+		<audio src="audio/ride.wav" data-key="h"></audio>
+		<audio src="audio/snare-sumo.wav" data-key="z"></audio>
+		<audio src="audio/snare-tape.wav" data-key="x"></audio>
+		<audio src="audio/snare.wav" data-key="c"></audio>
+		<audio src="audio/tink.wav" data-key="v"></audio>
+		<audio src="audio/tom.wav" data-key="b"></audio>
+		<audio src="audio/crash-acoustic.wav" data-key="n"></audio>
+	</div>
+
+
+
+
+
+	  <script src="dist/script.js"></script>
+</body>
+</html>
